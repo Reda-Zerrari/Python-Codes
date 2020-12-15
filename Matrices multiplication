@@ -5,7 +5,7 @@ for i in range(len(a)):
     xx=[]
     for j in range(len(b[0])):
         p=0
-        for k in range(len(a)): 
+        for k in range(len(b)): 
             p = p + a[i][k] * b[k][j]            
         xx.append(p)
     x.append(xx)      
